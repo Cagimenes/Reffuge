@@ -65,89 +65,52 @@ body {
     padding: 20px;
 }
 
-.caixa {
+.box-funcionamento {
+    width: 70%;
+    font-size: 24px;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    color: #6DA6C2;
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-info {
+    margin-bottom: 10px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.box-header {
     width: 100%;
+    height: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    font-size: 20px;
 }
 
-.box-lateral {
-    position: relative;
-    background-color: #9FCADF;
-    width: 34%;
-    height: 700px;
-}
-
-.box-lateral img {
-    position: absolute;
-    top: 20%;
-    right: -45px;
-    width: 400px;
-    height: 450px;
-    object-fit: cover;
-}
-
-.caixa-texto {
-    width: 859px;
-    padding: 0 20px;
-    height: 640px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.caixa-texto p{
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-}
-
-.azul {
-    color: #6DA6C2;
-    font-size: 24px;
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.jeito {
-    display: flex;
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    margin-top: 70PX;
-}
-
-.jeito-azul {
-    color: #6DA6C2;
-    margin-left: 5px;
-}
-
-.mvv {
-    display: flex;
+.infos {
+    display: none;
     width: 100%;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    height: 60px;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 10px;
 }
-
-.box-mvv {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-bottom: 70px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-}
-
-.titulo-mvv {
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-
-.frase-mvv {
-    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+.infos p {
+    padding: 10px;
 }
 
 .aplicativo {
@@ -159,6 +122,7 @@ body {
     align-items: center;
     font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
+    margin-top: 70px;
 }
 
 .box-branca {

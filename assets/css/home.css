@@ -72,15 +72,6 @@ body {
     width: 100%;
 }
 
-.header-banner {
-    width: 100%;
-}
-.header-banner img {
-    display: block;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 7px;
-}
 
 .item {
     width: 100%;
@@ -302,18 +293,14 @@ body {
     border-bottom: 1px solid gray;
 }
 
-.rodape h4 {
-    font-size: 25px;
-}
-
 .rodape p {
-    font-size: 15px;
+    font-size: 24px;
 }
 
 .institucional {
-
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 60px;
+    margin-bottom: 25px;
 }
 
 .titulo-rodape {
@@ -333,7 +320,7 @@ body {
 
 .redes {
     color: white;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 .redes img{
     width: 45px;
