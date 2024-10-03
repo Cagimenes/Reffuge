@@ -9,6 +9,5 @@ $(document).ready(function(){
             $( this ).parent().find( 'i' ).attr( 'class' , 'fa-solid fa-chevron-down' );
         }
         
-    })
-  
+    });
 });
